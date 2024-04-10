@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clubes APP</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: black;
+            height: 50px;
+        }
+
+        header nav {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin: 0 40px;
+        }
+
+        nav a {
+            color: white;
+            font-weight: bold;
+        }
+
+        h2 {
+            margin: 40px 0 10px 30px;
+        }
+
+        p {
+            margin-left: 50px;
+            width: 500px;
+        }
+
+        footer {
+            background-color: #454545;
+            height: 100px;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            bottom: 0;
+            position: absolute;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        footer a{
+            color: white;
+            text-decoration: underline;
+            margin-left: 40px;
+        }
+
+        footer p{
+            color: white;
+            right: 20px;
+        }
+    </style>
+</head>
+
+<header>
+    <nav>
+        <a href="http://localhost:8080">Home</a>
+        <a href="http://localhost:8080/usuario">Usuarios</a>
+        <a href="http://localhost:8080/torneio/listar">Torneios</a>
+        <a href="http://localhost:8080/Clube/listar">Clubes</a>
+        <a href="http://localhost:8080/Emissora/listar">Emissoras</a>
+        <a href="http://localhost:8080/Treinador/listar">Treinadores</a>
+        <a href="http://localhost:8080/Atleta/listar">Atletas</a>
+        <a href="/Spark">Sobre o Spark Java</a>
+    </nav>
+</header>
+
+
+<h2>Compreensão do Spark Java:</h2>
+<p>
+    O Spark Java é um framework web leve e simples para criação de aplicativos web em
+    Java sendo principalmente usado para o desenvolvimento de APIs RESTful.
+</p>
+
+<h2>Comparação com Outros Frameworks:</h2>
+<p>
+    O Spark é mais simples em suas atriubuições do que o Spring Boot, usado ao longo da disciplina, portanto é útil na criação
+    de aplicativos menores e mais simples
+</p>
+
+<h2>Escalabilidade e Desempenho:</h2>
+<p>
+    O Spark Java suporta operações assíncronas, o que permite lidar com um grande número de solicitações simultâneas de forma eficiente, garantindo
+    uma boa capacidade de resposta e escalabilidade. Devido à sua arquitetura leve e minimalista, o Spark Java impõe pouca sobrecarga ao sistema,
+    o que torna ele muito mais rápido que as outras APIs.
+</p>
+
+<h2>Facilidade de Uso:</h2>
+<p>
+    O Spark não necessita de arquivos externos, portanto facilita muito o uso sem tem que se preocupar com várias configurações que podem alterar
+    a depender da aplicação, o que pode atrapalhar o desenvolvimento,
+</p>
+
+
+<footer>
+    <a href="https://github.com/ygordsc/DR3_AT" target="_blank">Repositório no GitHub</a>
+    <p>© 2023 Ygor Cardoso - Todos os direitos reservados.</p>
+</footer>
+
+
+</html>
